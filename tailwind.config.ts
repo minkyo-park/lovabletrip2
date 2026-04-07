@@ -7,9 +7,9 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "1rem",
       screens: {
-        "2xl": "1400px",
+        "2xl": "1200px",
       },
     },
     extend: {
@@ -47,16 +47,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
-        },
+        "trip-blue": "hsl(var(--trip-blue))",
+        "trip-blue-dark": "hsl(var(--trip-blue-dark))",
+        "trip-orange": "hsl(var(--trip-orange))",
+        "trip-green": "hsl(var(--trip-green))",
+        "trip-red": "hsl(var(--trip-red))",
+        "trip-gold": "hsl(var(--trip-gold))",
+        "trip-navy": "hsl(var(--trip-navy))",
+        "trip-sky": "hsl(var(--trip-sky))",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -64,26 +62,23 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
-        "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+        "fade-in": {
+          from: { opacity: "0", transform: "translateY(20px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
         },
-        "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+        "slide-up": {
+          from: { opacity: "0", transform: "translateY(40px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
+        },
+        pulse_glow: {
+          "0%, 100%": { boxShadow: "0 0 0 0 hsl(35 100% 50% / 0.4)" },
+          "50%": { boxShadow: "0 0 0 12px hsl(35 100% 50% / 0)" },
         },
       },
       animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in": "fade-in 0.6s ease-out forwards",
+        "slide-up": "slide-up 0.8s ease-out forwards",
+        "pulse-glow": "pulse_glow 2s infinite",
       },
     },
   },
