@@ -8,7 +8,7 @@ import savingsImg from "@/assets/savings-calc.png";
 import bangkokImg from "@/assets/bangkok-travel.jpg";
 import vietnamImg from "@/assets/vietnam-travel.jpg";
 import { Link } from "react-router-dom";
-import { AlertTriangle, CheckCircle, XCircle, HelpCircle, Calendar, Phone, MessageCircle } from "lucide-react";
+import { AlertTriangle, CheckCircle, XCircle, HelpCircle, Calendar, Phone, MessageCircle, Globe } from "lucide-react";
 
 const AFFILIATE = "http://app.ac/XtwdyDM23";
 
