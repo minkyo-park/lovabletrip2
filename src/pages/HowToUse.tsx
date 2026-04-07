@@ -178,7 +178,7 @@ const HowToUse = () => {
                 <tr><td className="font-medium">중복 사용</td><td>❌ 불가 (둘 중 하나만)</td><td>❌ 불가</td></tr>
                 <tr><td className="font-medium">할인 방식</td><td>적립 포인트 차감</td><td>예약 금액 즉시 차감</td></tr>
                 <tr><td className="font-medium">장점</td><td>소액 코인 소진 가능</td><td>즉각적 현금 할인, 상한선 없는 코드 있음</td></tr>
-                <tr><td className="font-medium">선택 기준</td><td>코인이 많을 때</td><td>할인액 > 코인 가치 시</td></tr>
+                <tr><td className="font-medium">선택 기준</td><td>코인이 많을 때</td><td>할인액 {'>'} 코인 가치 시</td></tr>
               </tbody>
             </table>
           </div>
