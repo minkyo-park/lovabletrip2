@@ -15,17 +15,28 @@ const CardDiscounts = () => {
   return (
     <>
       <Helmet>
-        <title>카드사별 할인 상세 - 트립닷컴 할인코드</title>
+        <title>카드사별 할인 상세 - 트립닷컴 호텔 할인코드</title>
         <meta name="description" content="트립닷컴 카드사별 제휴 할인 총정리. 신한카드 8%, KB국민 6%, 카카오뱅크 20% 등 카드별 조건·기간·사용법 완벽 가이드." />
         <link rel="canonical" href="https://trip.dongbaektour.co.kr/card-discounts" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="카드사별 할인 상세 - 트립닷컴 호텔 할인코드" />
+        <meta property="og:description" content="트립닷컴 카드사별 제휴 할인 총정리. 신한카드 8%, KB국민 6%, 카카오뱅크 20% 등 카드별 조건·기간·사용법 완벽 가이드." />
+        <meta property="og:url" content="https://trip.dongbaektour.co.kr/card-discounts" />
+        <meta property="og:image" content="https://trip.dongbaektour.co.kr/og-image.jpg" />
+        <meta property="og:site_name" content="트립닷컴 호텔 할인코드" />
+        <meta property="og:locale" content="ko_KR" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="카드사별 할인 상세 - 트립닷컴 호텔 할인코드" />
+        <meta name="twitter:description" content="트립닷컴 카드사별 제휴 할인 총정리. 신한카드 8%, KB국민 6%, 카카오뱅크 20% 등 카드별 조건·기간·사용법 완벽 가이드." />
+        <meta name="twitter:image" content="https://trip.dongbaektour.co.kr/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
           "headline": "트립닷컴 카드사별 할인 상세 가이드 2026",
           "description": "카드사별 트립닷컴 제휴 할인의 조건·기간·금액·사용법 완벽 정리",
           "url": "https://trip.dongbaektour.co.kr/card-discounts",
-          "dateModified": "2026-04-07",
-          "author": {"@type":"Organization","name":"트립닷컴 할인코드"}
+          "dateModified": "2026-05-07",
+          "author": {"@type":"Organization","name":"트립닷컴 호텔 할인코드"}
         })}</script>
       </Helmet>
 
@@ -54,7 +65,7 @@ const CardDiscounts = () => {
                 <div className="bg-primary/10 rounded-lg p-3 text-center"><div className="text-2xl font-black text-primary">3%</div><div className="text-xs text-muted-foreground">액티비티</div></div>
               </div>
               <ul className="text-sm space-y-1 text-muted-foreground">
-                <li>• 예약 기간: ~2026년 3월 31일 (기간 만료 확인 요망)</li>
+                <li>• 예약 기간: ~2026년 5월 31일 (기간 만료 확인 요망)</li>
                 <li>• 결제 통화: <strong className="text-primary">USD(달러)</strong> 결제 시만 적용</li>
                 <li>• 신한카드 전용 URL로 접속 후 결제</li>
               </ul>
@@ -226,7 +237,7 @@ const CardDiscounts = () => {
                 <li>• 매일 오전 10시·오후 6시 선착순</li>
                 <li>• 호텔 첫 예약 고객 대상</li>
                 <li>• 체인호텔(하얏트·메리어트·힐튼) 적용 가능</li>
-                <li>• 기간: 2026.03.09 ~ 12.31</li>
+                <li>• 기간: 2026.05.01 ~ 12.31</li>
               </ul>
               <AffiliateBtn label="카카오페이 쿠폰 →" className="mt-3 text-sm py-2 px-4" />
             </article>

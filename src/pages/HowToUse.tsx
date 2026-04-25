@@ -16,13 +16,24 @@ const HowToUse = () => {
   return (
     <>
       <Helmet>
-        <title>사용방법 완벽 가이드 - 트립닷컴 할인코드</title>
-        <meta name="description" content="트립닷컴 할인코드 사용법 A to Z. 신규 가입, 골드 등급 달성, 할인코드 입력, 결제 수단 추천까지 초보자도 쉽게 따라하는 완벽 가이드." />
+        <title>사용방법 완벽 가이드 - 트립닷컴 호텔 할인코드</title>
+        <meta name="description" content="트립닷컴 호텔 할인코드 사용법 A to Z. 신규 가입, 골드 등급 달성, 할인코드 입력, 결제 수단 추천까지 초보자도 쉽게 따라하는 완벽 가이드." />
         <link rel="canonical" href="https://trip.dongbaektour.co.kr/how-to-use" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="사용방법 완벽 가이드 - 트립닷컴 호텔 할인코드" />
+        <meta property="og:description" content="트립닷컴 호텔 할인코드 사용법 A to Z. 신규 가입, 골드 등급 달성, 할인코드 입력, 결제 수단 추천까지 초보자도 쉽게 따라하는 완벽 가이드." />
+        <meta property="og:url" content="https://trip.dongbaektour.co.kr/how-to-use" />
+        <meta property="og:image" content="https://trip.dongbaektour.co.kr/og-image.jpg" />
+        <meta property="og:site_name" content="트립닷컴 호텔 할인코드" />
+        <meta property="og:locale" content="ko_KR" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="사용방법 완벽 가이드 - 트립닷컴 호텔 할인코드" />
+        <meta name="twitter:description" content="트립닷컴 호텔 할인코드 사용법 A to Z. 신규 가입, 골드 등급 달성, 할인코드 입력, 결제 수단 추천까지 초보자도 쉽게 따라하는 완벽 가이드." />
+        <meta name="twitter:image" content="https://trip.dongbaektour.co.kr/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "HowTo",
-          "name": "트립닷컴 할인코드 사용방법",
+          "name": "트립닷컴 호텔 할인코드 사용방법",
           "description": "트립닷컴에서 할인코드를 적용하여 최대 할인을 받는 완벽 가이드",
           "step": [
             {"@type":"HowToStep","position":1,"name":"앱 다운로드","text":"트립닷컴 공식 앱을 다운로드합니다"},

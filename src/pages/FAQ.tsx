@@ -16,9 +16,20 @@ const FAQ = () => {
   return (
     <>
       <Helmet>
-        <title>FAQ & 트러블슈팅 - 트립닷컴 할인코드</title>
-        <meta name="description" content="트립닷컴 할인코드 적용 오류 해결 가이드. 코드 무효, 할인 미적용, 결제 통화 문제 등 모든 문제 해결법과 FAQ 총정리." />
+        <title>FAQ & 트러블슈팅 - 트립닷컴 호텔 할인코드</title>
+        <meta name="description" content="트립닷컴 호텔 할인코드 적용 오류 해결 가이드. 코드 무효, 할인 미적용, 결제 통화 문제 등 모든 문제 해결법과 FAQ 총정리." />
         <link rel="canonical" href="https://trip.dongbaektour.co.kr/faq" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="FAQ & 트러블슈팅 - 트립닷컴 호텔 할인코드" />
+        <meta property="og:description" content="트립닷컴 호텔 할인코드 적용 오류 해결 가이드. 코드 무효, 할인 미적용, 결제 통화 문제 등 모든 문제 해결법과 FAQ 총정리." />
+        <meta property="og:url" content="https://trip.dongbaektour.co.kr/faq" />
+        <meta property="og:image" content="https://trip.dongbaektour.co.kr/og-image.jpg" />
+        <meta property="og:site_name" content="트립닷컴 호텔 할인코드" />
+        <meta property="og:locale" content="ko_KR" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="FAQ & 트러블슈팅 - 트립닷컴 호텔 할인코드" />
+        <meta name="twitter:description" content="트립닷컴 호텔 할인코드 적용 오류 해결 가이드. 코드 무효, 할인 미적용, 결제 통화 문제 등 모든 문제 해결법과 FAQ 총정리." />
+        <meta name="twitter:image" content="https://trip.dongbaektour.co.kr/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "FAQPage",

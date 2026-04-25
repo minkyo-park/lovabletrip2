@@ -10,7 +10,7 @@ const Footer = () => (
         <div>
           <div className="flex items-center gap-2 font-bold text-lg mb-4">
             <Plane className="w-5 h-5" />
-            트립닷컴 할인코드
+            트립닷컴 호텔 할인코드
           </div>
           <p className="text-sm text-primary-foreground/70 leading-relaxed">
             트립닷컴(Trip.com) 최신 할인코드·쿠폰·카드 제휴 프로모션을 매월 정기 업데이트합니다. 코드 하나로 최대 50% 이상 절약하세요.
@@ -33,16 +33,16 @@ const Footer = () => (
             rel="noopener noreferrer nofollow"
             className="btn-cta text-sm"
           >
-            트립닷컴 할인코드 적용하기 →
+            트립닷컴 호텔 할인코드 적용하기 →
           </a>
           <p className="text-xs text-primary-foreground/50 mt-4">
-            마지막 업데이트: 2026년 4월 7일<br />
+            마지막 업데이트: 2026년 5월 7일<br />
             본 사이트는 트립닷컴 제휴 파트너로서 제휴 링크를 포함하고 있습니다.
           </p>
         </div>
       </div>
       <div className="border-t border-primary-foreground/10 mt-8 pt-6 text-center text-xs text-primary-foreground/40">
-        © 2026 트립닷컴 할인코드 | trip.dongbaektour.co.kr | 이 사이트는 Trip.com의 공식 사이트가 아니며, 독립적인 정보 제공 사이트입니다.
+        © 2026 트립닷컴 호텔 할인코드 | trip.dongbaektour.co.kr | 이 사이트는 Trip.com의 공식 사이트가 아니며, 독립적인 정보 제공 사이트입니다.
       </div>
     </div>
   </footer>

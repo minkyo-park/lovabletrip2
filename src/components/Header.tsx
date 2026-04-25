@@ -20,7 +20,7 @@ const Header = () => {
       <nav className="container flex items-center justify-between h-16" aria-label="메인 내비게이션">
         <Link to="/" className="flex items-center gap-2 font-bold text-lg text-primary">
           <Plane className="w-6 h-6" />
-          <span>트립닷컴 할인코드</span>
+          <span>트립닷컴 호텔 할인코드</span>
         </Link>
 
         {/* Desktop */}
