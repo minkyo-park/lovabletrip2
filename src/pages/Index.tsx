@@ -10,6 +10,11 @@ import hotelImg from "@/assets/hotel-room.jpg";
 import membershipImg from "@/assets/membership-tiers.png";
 import koreaImg from "@/assets/korea-travel.jpg";
 import chinaImg from "@/assets/china-travel.jpg";
+import coupon1 from "@/assets/coupon-1.webp";
+import coupon2 from "@/assets/coupon-2.webp";
+import coupon3 from "@/assets/coupon-3.webp";
+import coupon4 from "@/assets/coupon-4.webp";
+import coupon5 from "@/assets/coupon-5.webp";
 import { Link } from "react-router-dom";
 import { CheckCircle, RefreshCw, CreditCard, Gift, Plane, Hotel, Car, MapPin, Clock, Star, TrendingUp, AlertTriangle } from "lucide-react";
 
@@ -94,6 +99,7 @@ const Index = () => {
           {/* 인플루언서 코드 */}
           <article className="card-trip border-l-4 border-l-trip-orange">
             <div className="flex items-start justify-between gap-4 flex-wrap">
+              <img src={coupon1} alt="트립닷컴 인플루언서 호텔 12% 할인코드 TRIPBH3F" loading="lazy" width={1254} height={1254} className="w-24 sm:w-32 md:w-40 aspect-square object-cover rounded-lg shrink-0" />
               <div className="flex-1 min-w-0">
                 <span className="badge-trip bg-trip-orange/10 text-trip-orange text-xs mb-2">🔥 인기 1위 · 상시</span>
                 <h3 className="font-bold text-lg mb-1">인플루언서 할인코드</h3>
@@ -114,6 +120,7 @@ const Index = () => {
           {/* 항공권 */}
           <article className="card-trip border-l-4 border-l-primary">
             <div className="flex items-start justify-between gap-4 flex-wrap">
+              <img src={coupon2} alt="트립닷컴 항공권 3% 기본 할인코드" loading="lazy" width={1254} height={1254} className="w-24 sm:w-32 md:w-40 aspect-square object-cover rounded-lg shrink-0" />
               <div className="flex-1 min-w-0">
                 <span className="badge-trip bg-primary/10 text-primary text-xs mb-2"><Plane className="w-3 h-3" /> 항공권</span>
                 <h3 className="font-bold text-lg mb-1">항공권 기본 할인코드</h3>
@@ -132,6 +139,7 @@ const Index = () => {
           {/* 신규회원 호텔 */}
           <article className="card-trip border-l-4 border-l-trip-green">
             <div className="flex items-start justify-between gap-4 flex-wrap">
+              <img src={coupon3} alt="트립닷컴 신규회원 호텔 최대 10% 할인쿠폰" loading="lazy" width={1254} height={1254} className="w-24 sm:w-32 md:w-40 aspect-square object-cover rounded-lg shrink-0" />
               <div className="flex-1 min-w-0">
                 <span className="badge-trip bg-trip-green/10 text-trip-green text-xs mb-2"><Gift className="w-3 h-3" /> 신규회원 전용</span>
                 <h3 className="font-bold text-lg mb-1">신규회원 호텔 쿠폰</h3>
@@ -150,6 +158,7 @@ const Index = () => {
           {/* 웰컴 쿠폰팩 */}
           <article className="card-trip border-l-4 border-l-trip-gold">
             <div className="flex items-start justify-between gap-4 flex-wrap">
+              <img src={coupon4} alt="트립닷컴 신규회원 웰컴 쿠폰팩 최대 12,800원" loading="lazy" width={1254} height={1254} className="w-24 sm:w-32 md:w-40 aspect-square object-cover rounded-lg shrink-0" />
               <div className="flex-1 min-w-0">
                 <span className="badge-trip bg-trip-gold/10 text-trip-gold text-xs mb-2"><Star className="w-3 h-3" /> 신규회원 필수</span>
                 <h3 className="font-bold text-lg mb-1">신규회원 웰컴 쿠폰팩</h3>
@@ -169,6 +178,7 @@ const Index = () => {
           {/* 렌터카 */}
           <article className="card-trip border-l-4 border-l-primary">
             <div className="flex items-start justify-between gap-4 flex-wrap">
+              <img src={coupon5} alt="트립닷컴 신규회원 렌터카 최대 8% 할인쿠폰" loading="lazy" width={1254} height={1254} className="w-24 sm:w-32 md:w-40 aspect-square object-cover rounded-lg shrink-0" />
               <div className="flex-1 min-w-0">
                 <span className="badge-trip bg-primary/10 text-primary text-xs mb-2"><Car className="w-3 h-3" /> 렌터카</span>
                 <h3 className="font-bold text-lg mb-1">신규회원 렌터카</h3>
