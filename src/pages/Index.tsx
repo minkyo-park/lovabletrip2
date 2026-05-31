@@ -19,30 +19,31 @@ import { Link } from "react-router-dom";
 import { CheckCircle, RefreshCw, CreditCard, Gift, Plane, Hotel, Car, MapPin, Clock, Star, TrendingUp, AlertTriangle } from "lucide-react";
 
 const AFFILIATE = "http://app.ac/XtwdyDM23";
+const TOSS_LINK = "http://app.ac/cEMTKrS53";
 
 const Index = () => {
   return (
     <>
       <Helmet>
         <title>트립닷컴 호텔 할인코드</title>
-        <meta name="description" content="트립닷컴 5월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
+        <meta name="description" content="트립닷컴 6월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
         <link rel="canonical" href="https://trip.dongbaektour.co.kr/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="트립닷컴 호텔 할인코드" />
-        <meta property="og:description" content="트립닷컴 5월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
+        <meta property="og:description" content="트립닷컴 6월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
         <meta property="og:url" content="https://trip.dongbaektour.co.kr/" />
         <meta property="og:image" content="https://trip.dongbaektour.co.kr/og-image.jpg" />
         <meta property="og:site_name" content="트립닷컴 호텔 할인코드" />
         <meta property="og:locale" content="ko_KR" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="트립닷컴 호텔 할인코드" />
-        <meta name="twitter:description" content="트립닷컴 5월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
+        <meta name="twitter:description" content="트립닷컴 6월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
         <meta name="twitter:image" content="https://trip.dongbaektour.co.kr/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebPage",
           "name": "트립닷컴 호텔 할인코드",
-          "description": "트립닷컴 5월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!",
+          "description": "트립닷컴 6월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!",
           "url": "https://trip.dongbaektour.co.kr/",
           "mainEntity": {
             "@type": "ItemList",
@@ -63,7 +64,7 @@ const Index = () => {
         <div className="relative container py-16 md:py-24 text-primary-foreground text-center">
           <h1 className="text-3xl md:text-5xl font-black mb-4 leading-tight">
             트립닷컴 할인코드<br />
-            <span className="text-trip-gold">2026년 5월</span> 최신 업데이트 완료
+            <span className="text-trip-gold">2026년 6월</span> 최신 업데이트 완료
           </h1>
           <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto mb-8">
             트립닷컴(Trip.com) 할인코드·쿠폰·카드 제휴·프로모션 정보를 한 곳에서 확인하세요.<br />
@@ -73,7 +74,7 @@ const Index = () => {
           {/* Badges */}
           <div className="flex flex-wrap justify-center gap-3 mb-8">
             <span className="badge-trip bg-primary-foreground/20 text-primary-foreground"><CheckCircle className="w-4 h-4" /> 사용 가능 코드: 32개 이상</span>
-            <span className="badge-trip bg-primary-foreground/20 text-primary-foreground"><RefreshCw className="w-4 h-4" /> 업데이트: 2026.05.07</span>
+            <span className="badge-trip bg-primary-foreground/20 text-primary-foreground"><RefreshCw className="w-4 h-4" /> 업데이트: 2026.06.07</span>
             <span className="badge-trip bg-primary-foreground/20 text-primary-foreground"><CreditCard className="w-4 h-4" /> 제휴 카드사 8종+</span>
             <span className="badge-trip bg-primary-foreground/20 text-primary-foreground"><Gift className="w-4 h-4" /> 신규회원 최대 12,800원</span>
           </div>
@@ -91,11 +92,55 @@ const Index = () => {
       <section className="container py-12" aria-label="이달의 핵심 할인코드">
         <div className="flex items-center gap-3 mb-2">
           <img src={discountImg} alt="할인코드" width={60} height={45} loading="lazy" />
-          <h2 className="section-title">🔥 이달의 핵심 할인코드 (5월 기준)</h2>
+          <h2 className="section-title">🔥 이달의 핵심 할인코드 (6월 기준)</h2>
         </div>
         <p className="section-subtitle">지금 바로 쓸 수 있는 트립닷컴 기본 할인코드 — 코드 복사 후 결제 시 입력하세요</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {/* 토스페이 항공 5% */}
+          <article className="card-trip border-l-4 border-l-trip-red">
+            <div className="flex items-start justify-between gap-4 flex-wrap">
+              <div className="flex-1 min-w-0">
+                <span className="badge-trip bg-trip-red/10 text-trip-red text-xs mb-2"><Plane className="w-3 h-3" /> 토스페이 · 신규</span>
+                <h3 className="font-bold text-lg mb-1">토스페이 항공 할인코드</h3>
+                <p className="text-2xl font-black text-trip-red">항공 5% 할인 <span className="text-base font-bold">(최대 6만원)</span></p>
+                <p className="text-sm font-semibold text-foreground mt-1">코드: <span className="text-trip-red">TOSSF05</span></p>
+                <ul className="mt-2 text-sm text-muted-foreground space-y-1">
+                  <li>• 토스페이 결제 시 적용, 최소 사용금액 없음</li>
+                  <li>• 할인·예약 ~2026.06.30 / 이륙 ~2026.09.30</li>
+                  <li>• 계정당 1일 1회 선착순</li>
+                  <li>• 전용 링크 접속 후 결제 시 코드 입력</li>
+                </ul>
+              </div>
+              <div className="flex flex-col gap-2 items-end">
+                <CopyButton code="TOSSF05" />
+                <AffiliateBtn href={TOSS_LINK} label="항공 할인 →" className="text-sm py-2 px-4" />
+              </div>
+            </div>
+          </article>
+
+          {/* 토스페이 호텔 5% */}
+          <article className="card-trip border-l-4 border-l-trip-red">
+            <div className="flex items-start justify-between gap-4 flex-wrap">
+              <div className="flex-1 min-w-0">
+                <span className="badge-trip bg-trip-red/10 text-trip-red text-xs mb-2"><Hotel className="w-3 h-3" /> 토스페이 · 신규</span>
+                <h3 className="font-bold text-lg mb-1">토스페이 호텔 할인코드</h3>
+                <p className="text-2xl font-black text-trip-red">호텔 5% 할인 <span className="text-base font-bold">(최대 6만원)</span></p>
+                <p className="text-sm font-semibold text-foreground mt-1">코드: <span className="text-trip-red">TOSSH05</span></p>
+                <ul className="mt-2 text-sm text-muted-foreground space-y-1">
+                  <li>• 토스페이 결제 시 적용, 최소 사용금액 없음</li>
+                  <li>• 할인·예약 ~2026.06.30 / 숙박 ~2026.09.30</li>
+                  <li>• 계정당 1일 1회 선착순</li>
+                  <li>• 전용 링크 접속 후 결제 시 코드 입력</li>
+                </ul>
+              </div>
+              <div className="flex flex-col gap-2 items-end">
+                <CopyButton code="TOSSH05" />
+                <AffiliateBtn href={TOSS_LINK} label="호텔 할인 →" className="text-sm py-2 px-4" />
+              </div>
+            </div>
+          </article>
+
           {/* 인플루언서 코드 */}
           <article className="card-trip border-l-4 border-l-trip-orange">
             <div className="flex items-start justify-between gap-4 flex-wrap">
@@ -126,7 +171,7 @@ const Index = () => {
                 <h3 className="font-bold text-lg mb-1">항공권 기본 할인코드</h3>
                 <p className="text-2xl font-black text-primary">항공권 3% 할인</p>
                 <ul className="mt-2 text-sm text-muted-foreground space-y-1">
-                  <li>• KRW 결제, ~2026년 5월 31일</li>
+                  <li>• KRW 결제, ~2026년 6월 30일</li>
                   <li>• 신규·기존 회원 모두 사용 가능</li>
                 </ul>
               </div>
@@ -298,7 +343,7 @@ const Index = () => {
 
       {/* 지역별 항공권 특가 */}
       <section className="container py-12" aria-label="지역별 항공권 특가">
-        <h2 className="section-title">✈️ 지역별 항공권 특가 현황 (5월 기준)</h2>
+        <h2 className="section-title">✈️ 지역별 항공권 특가 현황 (6월 기준)</h2>
         <p className="section-subtitle">인기 여행지별 현재 할인 가능한 수준을 한눈에 확인하세요</p>
         <div className="table-responsive">
           <table className="table-trip">
@@ -375,7 +420,7 @@ const Index = () => {
             </thead>
             <tbody>
               {[
-                ["신한 SOL TRAVEL", "7%", "4%", "3%", "USD", "~2026.05.31"],
+                ["신한 SOL TRAVEL", "7%", "4%", "3%", "USD", "~2026.06.30"],
                 ["신한카드 (일반)", "8% (최대30만)", "4% (최대30만)", "3%", "KRW", "~2025.12.31"],
                 ["KB 국민카드", "6%", "3%", "4%", "USD", "~2026.12.31"],
                 ["우리카드", "6%", "3%", "4%", "USD/KRW", "~2026.06.30"],

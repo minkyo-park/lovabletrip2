@@ -4,11 +4,12 @@ interface AffiliateBtnProps {
   label?: string;
   className?: string;
   variant?: "cta" | "primary";
+  href?: string;
 }
 
-const AffiliateBtn = ({ label = "할인코드 적용하기", className = "", variant = "cta" }: AffiliateBtnProps) => (
+const AffiliateBtn = ({ label = "할인코드 적용하기", className = "", variant = "cta", href }: AffiliateBtnProps) => (
   <a
-    href={AFFILIATE_LINK}
+    href={href ?? AFFILIATE_LINK}
     target="_blank"
     rel="noopener noreferrer nofollow"
     className={`${variant === "cta" ? "btn-cta" : "btn-primary-trip"} ${className}`}

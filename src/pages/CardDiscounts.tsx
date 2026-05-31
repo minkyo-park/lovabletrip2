@@ -35,7 +35,7 @@ const CardDiscounts = () => {
           "headline": "트립닷컴 카드사별 할인 상세 가이드 2026",
           "description": "카드사별 트립닷컴 제휴 할인의 조건·기간·금액·사용법 완벽 정리",
           "url": "https://trip.dongbaektour.co.kr/card-discounts",
-          "dateModified": "2026-05-07",
+          "dateModified": "2026-06-07",
           "author": {"@type":"Organization","name":"트립닷컴 호텔 할인코드"}
         })}</script>
       </Helmet>
@@ -65,7 +65,7 @@ const CardDiscounts = () => {
                 <div className="bg-primary/10 rounded-lg p-3 text-center"><div className="text-2xl font-black text-primary">3%</div><div className="text-xs text-muted-foreground">액티비티</div></div>
               </div>
               <ul className="text-sm space-y-1 text-muted-foreground">
-                <li>• 예약 기간: ~2026년 5월 31일 (기간 만료 확인 요망)</li>
+                <li>• 예약 기간: ~2026년 6월 30일 (기간 만료 확인 요망)</li>
                 <li>• 결제 통화: <strong className="text-primary">USD(달러)</strong> 결제 시만 적용</li>
                 <li>• 신한카드 전용 URL로 접속 후 결제</li>
               </ul>
