@@ -65,7 +65,7 @@ const CardDiscounts = () => {
                 <div className="bg-primary/10 rounded-lg p-3 text-center"><div className="text-2xl font-black text-primary">3%</div><div className="text-xs text-muted-foreground">액티비티</div></div>
               </div>
               <ul className="text-sm space-y-1 text-muted-foreground">
-                <li>• 예약 기간: ~2026년 6월 30일 (기간 만료 확인 요망)</li>
+                <li>• 예약 기간: ~2026년 7월 30일 (기간 만료 확인 요망)</li>
                 <li>• 결제 통화: <strong className="text-primary">USD(달러)</strong> 결제 시만 적용</li>
                 <li>• 신한카드 전용 URL로 접속 후 결제</li>
               </ul>
@@ -134,7 +134,7 @@ const CardDiscounts = () => {
               <div className="bg-trip-green/10 rounded-lg p-4 text-center"><div className="text-3xl font-black text-trip-green">4%</div><div className="text-sm">액티비티</div></div>
             </div>
             <ul className="text-sm space-y-1 text-muted-foreground">
-              <li>• 예약 기간: ~2026년 6월 30일 (선착순)</li>
+              <li>• 예약 기간: ~2026년 7월 30일 (선착순)</li>
               <li>• 결제 통화: USD 또는 KRW (코드별 상이)</li>
               <li>• 우리카드 전용 링크 접속 → 코드 입력 → 우리카드로 결제</li>
             </ul>
@@ -222,7 +222,7 @@ const CardDiscounts = () => {
                 <div className="bg-trip-green/10 rounded-lg p-3 text-center"><div className="text-2xl font-black text-trip-green">5%</div><div className="text-xs">투어·티켓</div></div>
               </div>
               <ul className="text-sm space-y-1 text-muted-foreground">
-                <li>• ~2026년 6월 30일 (선착순)</li>
+                <li>• ~2026년 7월 30일 (선착순)</li>
                 <li>• <strong className="text-trip-green">KRW(원화) 결제 필수</strong></li>
                 <li>• 반드시 네이버 웨일 브라우저에서 접속</li>
                 <li>• 네이버페이 결제 시 0.5% 추가 적립</li>

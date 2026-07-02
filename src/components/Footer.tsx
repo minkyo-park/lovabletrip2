@@ -36,7 +36,7 @@ const Footer = () => (
             트립닷컴 호텔 할인코드 적용하기 →
           </a>
           <p className="text-xs text-primary-foreground/50 mt-4">
-            마지막 업데이트: 2026년 6월 7일<br />
+            마지막 업데이트: 2026년 7월 7일<br />
             본 사이트는 트립닷컴 제휴 파트너로서 제휴 링크를 포함하고 있습니다.
           </p>
         </div>
