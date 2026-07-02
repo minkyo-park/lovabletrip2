@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import { Head } from "vite-react-ssg";
 import CopyButton from "@/components/CopyButton";
 import AffiliateBtn from "@/components/AffiliateBtn";
 import heroImg from "@/assets/hero-banner.jpg";
@@ -24,7 +24,7 @@ const TOSS_LINK = "http://app.ac/cEMTKrS53";
 const Index = () => {
   return (
     <>
-      <Helmet>
+      <Head>
         <title>트립닷컴 호텔 할인코드</title>
         <meta name="description" content="트립닷컴 7월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
         <link rel="canonical" href="https://trip.dongbaektour.co.kr/" />
@@ -54,7 +54,7 @@ const Index = () => {
             ]
           }
         })}</script>
-      </Helmet>
+      </Head>
 
       {/* Hero */}
       <section className="hero-section relative" aria-label="히어로 섹션">

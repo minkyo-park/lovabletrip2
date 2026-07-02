@@ -1,9 +1,9 @@
+import type { RouteRecord } from "vite-react-ssg";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { HelmetProvider } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -15,29 +15,35 @@ import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
 
-const App = () => (
-  <HelmetProvider>
+function RootLayout() {
+  return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
-          <ScrollToTop />
-          <Header />
-          <main>
-            <Routes>
-              <Route path="/" element={<Index />} />
-              <Route path="/card-discounts" element={<CardDiscounts />} />
-              <Route path="/how-to-use" element={<HowToUse />} />
-              <Route path="/faq" element={<FAQ />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </main>
-          <Footer />
-        </BrowserRouter>
+        <ScrollToTop />
+        <Header />
+        <main>
+          <Outlet />
+        </main>
+        <Footer />
       </TooltipProvider>
     </QueryClientProvider>
-  </HelmetProvider>
-);
+  );
+}
 
-export default App;
+export const routes: RouteRecord[] = [
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      { index: true, element: <Index /> },
+      { path: "card-discounts", element: <CardDiscounts /> },
+      { path: "how-to-use", element: <HowToUse /> },
+      { path: "faq", element: <FAQ /> },
+      { path: "*", element: <NotFound /> },
+    ],
+  },
+];
+
+export default routes;

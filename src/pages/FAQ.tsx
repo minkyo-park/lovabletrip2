@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import { Head } from "vite-react-ssg";
 import CopyButton from "@/components/CopyButton";
 import AffiliateBtn from "@/components/AffiliateBtn";
 import faqImg from "@/assets/troubleshooting.png";
@@ -15,7 +15,7 @@ const AFFILIATE = "http://app.ac/XtwdyDM23";
 const FAQ = () => {
   return (
     <>
-      <Helmet>
+      <Head>
         <title>FAQ & 트러블슈팅 - 트립닷컴 호텔 할인코드</title>
         <meta name="description" content="트립닷컴 호텔 할인코드 적용 오류 해결 가이드. 코드 무효, 할인 미적용, 결제 통화 문제 등 모든 문제 해결법과 FAQ 총정리." />
         <link rel="canonical" href="https://trip.dongbaektour.co.kr/faq" />
@@ -40,7 +40,7 @@ const FAQ = () => {
             {"@type":"Question","name":"패키지 상품에 할인코드를 사용할 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"아니요, 항공+호텔 결합 패키지에는 할인코드 적용이 불가합니다. 각각 단독 예약 시에만 사용 가능합니다."}}
           ]
         })}</script>
-      </Helmet>
+      </Head>
 
       {/* Hero */}
       <section className="hero-section py-12 md:py-16 text-center">

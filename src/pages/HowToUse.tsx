@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import { Head } from "vite-react-ssg";
 import CopyButton from "@/components/CopyButton";
 import AffiliateBtn from "@/components/AffiliateBtn";
 import guideImg from "@/assets/how-to-guide.png";
@@ -15,7 +15,7 @@ const AFFILIATE = "http://app.ac/XtwdyDM23";
 const HowToUse = () => {
   return (
     <>
-      <Helmet>
+      <Head>
         <title>사용방법 완벽 가이드 - 트립닷컴 호텔 할인코드</title>
         <meta name="description" content="트립닷컴 호텔 할인코드 사용법 A to Z. 신규 가입, 골드 등급 달성, 할인코드 입력, 결제 수단 추천까지 초보자도 쉽게 따라하는 완벽 가이드." />
         <link rel="canonical" href="https://trip.dongbaektour.co.kr/how-to-use" />
@@ -43,7 +43,7 @@ const HowToUse = () => {
             {"@type":"HowToStep","position":5,"name":"결제","text":"할인코드를 입력하고 결제합니다"}
           ]
         })}</script>
-      </Helmet>
+      </Head>
 
       {/* Hero */}
       <section className="hero-section py-12 md:py-16 text-center">
